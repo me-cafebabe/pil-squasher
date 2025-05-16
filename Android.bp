@@ -1,0 +1,13 @@
+cc_binary {
+    name: "pil-splitter",
+    srcs: ["pil-splitter.c"],
+    host_supported: true,
+    vendor: true,
+}
+
+cc_binary {
+    name: "pil-squasher",
+    srcs: ["pil-squasher.c"],
+    host_supported: true,
+    vendor: true,
+}
